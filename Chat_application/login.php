@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Realtime Chat application | Rk's</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
 </head>
   <body class="bg-secondary">
@@ -22,13 +24,13 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Enter your password </label>
-                    <input type="password" name="user_password" class="form-control" id="user_password" data-parsley-minlength="6" data-parsley-maxlength="12" required>
+                    <input type="password" name="user_password" class="form-control" id="user_password" data-parsley-minlength="6" data-parsley-maxlength="12" required><i class="fas fa-eye" style="position:absolute; right:25px; top:60%; "></i>
                 </div>
   
                 <button type="submit" class="btn btn-primary w-100">Continue to Chat</button>
                 </form>
 
-                <div class=" mt-3 text-center fw-medium">Not yet signed up? <a href="login.php" style="text-decoration: none;">SignUp now</a></div>
+                <div class=" mt-3 text-center fw-medium">Not yet signed up? <a href="register.php" style="text-decoration: none;">SignUp now</a></div>
             </div>
         </div>
     </div>
